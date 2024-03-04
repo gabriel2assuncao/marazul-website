@@ -1,0 +1,72 @@
+body {
+    background-image: url(Background\ Photo.webp);
+    background-size: cover;
+    background-repeat: repeat-y;
+    margin: 0;
+    padding: 0;
+}
+
+.barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    background-color: #4242da;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.barra ul.menu-topo {
+    list-style: none;
+    margin: 50;
+    padding: 20;
+    display: flex;
+    align-items: center;
+}
+
+.barra ul.menu-topo li {
+    margin-left: 140px;
+}
+
+.barra ul.menu-topo li:first-child {
+    margin-left: 0;
+}
+
+.barra ul.menu-topo li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 16px 15px;
+}
+
+.barra ul.menu-topo li a:hover {
+    text-decoration: underline;
+}
+
+.barra .logo img {
+    width: auto; 
+    height: 40px; 
+    margin-right: 20px; 
+}
+
+.barra .logo {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.conteudo {
+    margin-top: 54px;
+}
+
+.destaque {
+    background-color: yellow; 
+    color: black;
+    font-size: 20px;
+}
+
+.posts {
+    background-color: greenyellow; 
+}
