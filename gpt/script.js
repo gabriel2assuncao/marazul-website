@@ -15,3 +15,4 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(nextSlide, 2000); // 2 segundos de atraso
 });
 
+
