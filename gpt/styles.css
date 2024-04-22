@@ -15,7 +15,8 @@ header {
 }
 
 .logo img {
-    width: 100px; /* Ajuste conforme necessário */
+    width: 100px;
+    /* Ajuste conforme necessário */
 }
 
 nav ul {
@@ -51,7 +52,8 @@ main {
 .destaques .carousel {
     display: flex;
     overflow: hidden;
-    width: 100%; /* Largura total */
+    width: 100%;
+    /* Largura total */
 }
 
 .destaques .slide {
@@ -59,7 +61,8 @@ main {
     margin-right: 20px;
     opacity: 0;
     transition: opacity 1s ease;
-    width: 100%; /* Largura total */
+    width: 100%;
+    /* Largura total */
 }
 
 .destaques .slide.active {
@@ -67,8 +70,10 @@ main {
 }
 
 .destaques .slide img {
-    width: 100%; /* Largura total */
-    height: 200px; /* Altura conforme necessário */
+    width: 100%;
+    /* Largura total */
+    height: 200px;
+    /* Altura conforme necessário */
     object-fit: cover;
 }
 
