@@ -25,80 +25,85 @@
     <main>
         <!DOCTYPE html>
         <html lang="en">
+
         <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jornal Escolar</title>
-        <style>
-        /* Adicione estilos CSS aqui conforme necessário */
-        </style>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Jornal Escolar</title>
+            <style>
+                /* Adicione estilos CSS aqui conforme necessário */
+            </style>
         </head>
+
         <body>
-        
-        <section class="destaques">
-            <h2>Jornal Escolar</h2>
-            <div class="carousel">
-                <div class="slide">
-                    <img src="..//images/eureca.png" alt="Destaques 1">
-                    <div class="descricao">
-                        <h3>Notícias</h3>
-                        <p>Aqui iremos colocar conteúdos do jornal escolar que ainda estão sendo desenvolvidos!</p>
-                        <a href="#">Saiba Mais</a>
+
+            <section class="destaques">
+                <h2>Jornal Escolar</h2>
+                <div class="carousel">
+                    <div class="slide">
+                        <img src="..//images/eureca.png" alt="Destaques 1">
+                        <div class="descricao">
+                            <h3>Notícias</h3>
+                            <p>Aqui iremos colocar conteúdos do jornal escolar que ainda estão sendo desenvolvidos!</p>
+                            <a href="#">Saiba Mais</a>
+                        </div>
                     </div>
-                </div>
-                <div class="slide">
-                    <img src="../images/mangue (1).png" alt="Destaques 2">
-                    <div class="descricao">
-                        <h3>Destaque 2</h3>
-                        <p>Aqui ficará as outras páginas do Jornal.</p>
-                        <a href="#">Saiba Mais</a>
+                    <div class="slide">
+                        <img src="../images/mangue (1).png" alt="Destaques 2">
+                        <div class="descricao">
+                            <h3>Destaque 2</h3>
+                            <p>Aqui ficará as outras páginas do Jornal.</p>
+                            <a href="#">Saiba Mais</a>
+                        </div>
                     </div>
+                    <!-- Adicione mais slides conforme necessário -->
                 </div>
-                <!-- Adicione mais slides conforme necessário -->
-            </div>
-        </section>
-        
-        <script>
-        // Seleciona todos os slides
-        const slides = document.querySelectorAll('.slide');
-        let currentSlide = 0;
-        
-        // Função para mostrar o próximo slide
-        function showNextSlide() {
-            // Oculta o slide atual
-            slides[currentSlide].style.display = 'none';
-            
-            // Move para o próximo slide
-            currentSlide = (currentSlide + 5) % slides.length;
-            
-            // Exibe o próximo slide
-            slides[currentSlide].style.display = 'block';
-        }
-        
-        // Exibe o primeiro slide
-        showNextSlide();
-        
-        // Alterna os slides automaticamente a cada 2 segundos
-        setInterval(showNextSlide, 7000);
-        </script>
-        
+            </section>
+
+            <script>
+                // Seleciona todos os slides
+                const slides = document.querySelectorAll('.slide');
+                let currentSlide = 0;
+
+                // Função para mostrar o próximo slide
+                function showNextSlide() {
+                    // Oculta o slide atual
+                    slides[currentSlide].style.display = 'none';
+
+                    // Move para o próximo slide
+                    currentSlide = (currentSlide + 5) % slides.length;
+
+                    // Exibe o próximo slide
+                    slides[currentSlide].style.display = 'block';
+                }
+
+                // Exibe o primeiro slide
+                showNextSlide();
+
+                // Alterna os slides automaticamente a cada 2 segundos
+                setInterval(showNextSlide, 7000);
+            </script>
+
         </body>
+
         </html>
-        
+
         <section class="Destaques">
             <h2>Últimas Notícias</h2>
             <div class="artigo">
                 <img src="../images/pescadores.png" alt="Foto de pescadores">
                 <div class="descricao">
                     <h3>Como é a vida de pescadores da Raposa?</h3>
-                    <p>Explore o cotidiano dos pescadores de Raposa, onde as vidas são moldadas pelas águas da Baía de São Marcos. Descubra suas tradições, desafios e a estreita ligação com o oceano. Uma narrativa que revela a essência de uma comunidade entrelaçada com a vida marinha.</p>
+                    <p>Explore o cotidiano dos pescadores de Raposa, onde as vidas são moldadas pelas águas da Baía de
+                        São Marcos. Descubra suas tradições, desafios e a estreita ligação com o oceano. Uma narrativa
+                        que revela a essência de uma comunidade entrelaçada com a vida marinha.</p>
                     <a href="artigo1.html">Leia Mais</a>
                 </div>
             </div>
         </section>
-        
+
         <section class="Destaques">
-        
+
             <div class="artigo">
                 <img src="../images/lagoa.png" alt="Artigo 2">
                 <div class="descricao">
@@ -106,17 +111,18 @@
                     <p>Moradores de São Luís enfrentam os impactos da poluição na Lagoa da Jansen</p>
                     <a href="artigo2.html">Leia Mais</a>
                 </div>
-            </section>
-            </div>
-            <div class="artigo">
-                <img src="../images/manguezal-poluição.png" alt="Artigo 3">
-                <div class="descricao">
-                    <h3>Importância dos Manguezais</h3>
-                    <p>Explore as consequências da degradação dos manguezais, desde a perda de biodiversidade até os desafios socioeconômicos enfrentados pelas populações locais que dependem desses ecossistemas.</p>
-                    <a href="artigo3.html">Leia Mais</a>
-                </div>
-            <!-- Adicione mais artigos conforme necessário -->
         </section>
+        </div>
+        <div class="artigo">
+            <img src="../images/manguezal-poluição.png" alt="Artigo 3">
+            <div class="descricao">
+                <h3>Importância dos Manguezais</h3>
+                <p>Explore as consequências da degradação dos manguezais, desde a perda de biodiversidade até os
+                    desafios socioeconômicos enfrentados pelas populações locais que dependem desses ecossistemas.</p>
+                <a href="artigo3.html">Leia Mais</a>
+            </div>
+            <!-- Adicione mais artigos conforme necessário -->
+            </section>
     </main>
 
     <footer>
