@@ -20,6 +20,35 @@
     </header>
 
     <style>
+                .artigo {
+            display: flex;
+            align-items: flex-start;
+            /* Alinhar itens ao topo */
+        }
+
+        .imagem {
+            margin-right: 20px;
+            /* Espaçamento à direita da imagem */
+            padding-left: 10px;
+            /* Espaçamento à esquerda da imagem */
+            width: 50%;
+            width: 50%;
+            /* Definir a largura da imagem como 50% da largura da seção */
+        }
+        .imagem img {
+            width: 100%;
+            /* Fazer a imagem ocupar 100% da largura do contêiner */
+            max-width: 100%;
+            /* Garantir que a imagem não ultrapasse seu tamanho original */
+            height: auto;
+            /* Permitir que a altura da imagem seja ajustada automaticamente */
+        }
+
+        .texto {
+            flex: 2;
+            /* Ocupar todo o espaço disponível */
+        }
+
         .artigo {
             display: flex;
             align-items: flex-start;
