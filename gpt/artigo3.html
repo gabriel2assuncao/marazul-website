@@ -20,24 +20,51 @@
 </header>
 
   <style>
+      body {
+      margin: 0;
+      padding: 0;
+    }
+
     .artigo {
+      position: relative;
       display: flex;
       /* Ativar o layout flexível */
-      align-items: flex-direction; row:
+      align-items: flex-start;
       /* Alinhar os itens verticalmente */
     }
 
     .imagem {
-      flex: 0 0 auto;
-      /* Não flexionar, manter tamanho automático */
-      margin-right: 20px;
-      /* Espaço à direita da imagem */
+      position: absolute;
+      /* Posiciona absolutamente em relação ao contêiner pai */
+      left: 0;
+      /* Alinhar à esquerda */
+      top: 0;
+      /* Alinhar ao topo */
+      width: 50%;
+      /* Largura de 50% da largura do contêiner pai */
+      height: 100%;
+      /* Altura igual à altura do contêiner pai */
+      margin-right: 10px;
+    }
+
+    .imagem img {
+      width: 100%;
+      /* Fazer a imagem ocupar 100% da largura do contêiner */
+      height: auto;
+      /* Permitir que a altura da imagem seja ajustada automaticamente */
+      display: block;
+      /* Garantir que a imagem não tenha margens indesejadas */
     }
 
     .descricao {
       flex: 0;
       /* Crescer para ocupar o espaço disponível */
-    }
+      margin-left: 50%;
+      /* Deixar espaço para a imagem */
+      padding: 20px;
+      /* Adicionar algum espaçamento interno */
+      box-sizing: border-box;
+      /* Incluir borda e preenchimento no tamanho total do elemento */ }
   </style>
 </head>
 
@@ -55,120 +82,62 @@
               style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Explore as consequências da degradação dos manguezais, desde a perda de biodiversidade até os desafios
-                    socioeconômicos enfrentados pelas populações locais que dependem desses ecossistemas.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Explore as consequências da degradação dos manguezais, desde a perda de biodiversidade até os desafios socioeconômicos enfrentados pelas populações locais que dependem desses ecossistemas.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Os manguezais são ecossistemas costeiros de transição entre o ambiente terrestre e marinho,
-                    caracterizados pela presença de árvores e arbustos adaptados a condições de salinidade e inundação.
-                    Nos Lençóis Maranhenses, esses manguezais desempenham papéis essenciais:</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Os manguezais são ecossistemas costeiros de transição entre o ambiente terrestre e marinho, caracterizados pela presença de árvores e arbustos adaptados a condições de salinidade e inundação. Nos Lençóis Maranhenses, esses manguezais desempenham papéis essenciais:</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Biodiversidade Excepcional: Os manguezais abrigam uma biodiversidade extraordinária, incluindo uma variedade de
-                    espécies de plantas, animais e microorganismos adaptados às condições únicas desse ambiente. Eles
-                    são habitats cruciais para aves migratórias, crustáceos, peixes e mamíferos, muitos dos quais
-                    utilizam os manguezais para reprodução, alimentação e proteção.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Biodiversidade Excepcional: Os manguezais abrigam uma biodiversidade extraordinária, incluindo uma variedade de espécies de plantas, animais e microorganismos adaptados às condições únicas desse ambiente. Eles são habitats cruciais para aves migratórias, crustáceos, peixes e mamíferos, muitos dos quais utilizam os manguezais para reprodução, alimentação e proteção.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Proteção Costeira: As raízes densas das árvores de mangue ajudam a estabilizar o solo e proteger as margens
-                    costeirass de saneamento básico, o que resulta na contaminação da lagoa.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Proteção Costeira: As raízes densas das árvores de mangue ajudam a estabilizar o solo e proteger as margens costeirass de saneamento básico, o que resulta na contaminação da lagoa.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Além disso, atividades como a pesca predatória e a utilização de embarcações movidas a motor têm causado
-                    danos adicionais ao ecossistema da lagoa, comprometendo a biodiversidade local e afetando
-                    diretamente a vida dos peixes e outras espécies aquáticas.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Além disso, atividades como a pesca predatória e a utilização de embarcações movidas a motor têm causado danos adicionais ao ecossistema da lagoa, comprometendo a biodiversidade local e afetando diretamente a vida dos peixes e outras espécies aquáticas.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Os impactos da poluição da Lagoa da Jansen não se limitam apenas ao meio ambiente, mas também afetam
-                    significativamente a qualidade de vida dos moradores da região. A contaminação da água torna-a
-                    imprópria para o consumo humano e para atividades de lazer, prejudicando a saúde pública e privando
-                    a comunidade de desfrutar de um espaço de convívio social e lazer.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Os impactos da poluição da Lagoa da Jansen não se limitam apenas ao meio ambiente, mas também afetam significativamente a qualidade de vida dos moradores da região. A contaminação da água torna-a imprópria para o consumo humano e para atividades de lazer, prejudicando a saúde pública e privando a comunidade de desfrutar de um espaço de convívio social e lazer.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Além disso, a degradação ambiental da lagoa tem consequências econômicas, uma vez que afeta o turismo
-                    local e reduz a atratividade da região para investimentos imobiliários e comerciais.</span></span>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Além disso, a degradação ambiental da lagoa tem consequências econômicas, uma vez que afeta o turismo local e reduz a atratividade da região para investimentos imobiliários e comerciais.</span></span>
               </p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Diante desse cenário preocupante, é urgente que medidas eficazes sejam tomadas para reverter a situação da
-                    Lagoa da Jansen. É necessário investir em infraestrutura de saneamento básico, promover a
-                    conscientização ambiental entre os moradores locais e fiscalizar rigorosamente as atividades que
-                    possam causar danos ao ecossistema da região.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Diante desse cenário preocupante, é urgente que medidas eficazes sejam tomadas para reverter a situação da Lagoa da Jansen. É necessário investir em infraestrutura de saneamento básico, promover a conscientização ambiental entre os moradores locais e fiscalizar rigorosamente as atividades que possam causar danos ao ecossistema da região.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    A preservação da Lagoa da Jansen não é apenas uma questão ambiental, mas também uma questão de saúde
-                    pública, qualidade de vida e desenvolvimento sustentável para a cidade de São Luís. É hora de agir
-                    antes que seja tarde demais e esse importante patrimônio natural seja perdido para
-                    sempre.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> A preservação da Lagoa da Jansen não é apenas uma questão ambiental, mas também uma questão de saúde pública, qualidade de vida e desenvolvimento sustentável para a cidade de São Luís. É hora de agir antes que seja tarde demais e esse importante patrimônio natural seja perdido para sempre.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">&nbsp;
-                    contra a erosão causada por ondas e tempestades. Os manguezais atuam como barreiras naturais, reduzindo o
-                    impacto das marés altas e das tempestades, além de proteger comunidades humanas e infraestrutura
-                    costeira.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">&nbsp; contra a erosão causada por ondas e tempestades. Os manguezais atuam como barreiras naturais, reduzindo o impacto das marés altas e das tempestades, além de proteger comunidades humanas e infraestrutura costeira.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Ciclagem de Nutrientes: Os manguezais desempenham um papel fundamental na ciclagem de nutrientes, capturando
-                    sedimentos e nutrientes provenientes dos rios e do mar. Isso não apenas contribui para a
-                    produtividade primária local, mas também influencia os ecossistemas adjacentes, como recifes de
-                    coral e áreas de pesca costeira.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Ciclagem de Nutrientes: Os manguezais desempenham um papel fundamental na ciclagem de nutrientes, capturando sedimentos e nutrientes provenientes dos rios e do mar. Isso não apenas contribui para a produtividade primária local, mas também influencia os ecossistemas adjacentes, como recifes de coral e áreas de pesca costeira.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Sustento de Comunidades Locais: As populações tradicionais que habitam as áreas próximas aos manguezais
-                    dependem deles para subsistência. A pesca artesanal, a coleta de mariscos, o extrativismo vegetal e
-                    o turismo de natureza baseado nos manguezais são fontes importantes de renda e alimento para muitas
-                    dessas comunidades.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Sustento de Comunidades Locais: As populações tradicionais que habitam as áreas próximas aos manguezais dependem deles para subsistência. A pesca artesanal, a coleta de mariscos, o extrativismo vegetal e o turismo de natureza baseado nos manguezais são fontes importantes de renda e alimento para muitas dessas comunidades.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Desafios e Degradação dos Manguezais:</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Desafios e Degradação dos Manguezais:</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Apesar de sua importância, os manguezais Maranhenses enfrentam uma série de desafios que têm contribuído
-                    para sua degradação:</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Apesar de sua importância, os manguezais Maranhenses enfrentam uma série de desafios que têm contribuído para sua degradação:</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Desmatamento e Conversão de Habitat: O desmatamento para expansão agrícola, aquicultura, urbanização e turismo
-                    tem levado à perda significativa de áreas de manguezal. A drenagem de áreas úmidas e o aterramento
-                    de manguezais para projetos de desenvolvimento têm resultado na perda de biodiversidade e na
-                    fragmentação do habitat.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Desmatamento e Conversão de Habitat: O desmatamento para expansão agrícola, aquicultura, urbanização e turismo tem levado à perda significativa de áreas de manguezal. A drenagem de áreas úmidas e o aterramento de manguezais para projetos de desenvolvimento têm resultado na perda de biodiversidade e na fragmentação do habitat.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Poluição e Contaminação: Descargas de esgotos, resíduos industriais e agrotóxicos provenientes de fontes
-                    terrestres contaminam os manguezais e comprometem a qualidade da água. Isso afeta negativamente a
-                    saúde dos ecossistemas e das comunidades que dependem dos recursos marinhos.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Poluição e Contaminação: Descargas de esgotos, resíduos industriais e agrotóxicos provenientes de fontes terrestres contaminam os manguezais e comprometem a qualidade da água. Isso afeta negativamente a saúde dos ecossistemas e das comunidades que dependem dos recursos marinhos.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Sobrepesca e Pressão Antropogênica: A exploração excessiva de recursos pesqueiros nos manguezais, muitas vezes
-                    impulsionada pela demanda comercial, resulta na diminuição das populações de peixes e crustáceos. A
-                    pesca predatória e a utilização de práticas não sustentáveis ameaçam a resiliência dos ecossistemas
-                    e a subsistência das comunidades locais.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Sobrepesca e Pressão Antropogênica: A exploração excessiva de recursos pesqueiros nos manguezais, muitas vezes impulsionada pela demanda comercial, resulta na diminuição das populações de peixes e crustáceos. A pesca predatória e a utilização de práticas não sustentáveis ameaçam a resiliência dos ecossistemas e a subsistência das comunidades locais.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Mudanças Climáticas: O aumento da temperatura global, a elevação do nível do mar e eventos climáticos
-                    extremos representam ameaças adicionais aos manguezais. A acidificação dos oceanos, a erosão
-                    costeira e a intensificação de tempestades podem comprometer a saúde e a funcionalidade desses
-                    ecossistemas, exacerbando os desafios já existentes.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Mudanças Climáticas: O aumento da temperatura global, a elevação do nível do mar e eventos climáticos extremos representam ameaças adicionais aos manguezais. A acidificação dos oceanos, a erosão costeira e a intensificação de tempestades podem comprometer a saúde e a funcionalidade desses ecossistemas, exacerbando os desafios já existentes.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Impactos Ambientais e Sociais:</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Impactos Ambientais e Sociais:</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
                     style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
@@ -182,30 +151,16 @@
                     ambientes.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Vulnerabilidade Costeira: A perda de manguezais aumenta a vulnerabilidade das comunidades costeiras a eventos
-                    climáticos extremos, como tempestades e tsunamis, colocando em risco vidas humanas e
-                    propriedades.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Vulnerabilidade Costeira: A perda de manguezais aumenta a vulnerabilidade das comunidades costeiras a eventos climáticos extremos, como tempestades e tsunamis, colocando em risco vidas humanas e propriedades.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Declínio das Atividades Econômicas: A diminuição dos recursos pesqueiros e a degradação ambiental reduzem as
-                    oportunidades de subsistência para as comunidades locais, afetando negativamente a segurança
-                    alimentar e o bem-estar socioeconômico.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Declínio das Atividades Econômicas: A diminuição dos recursos pesqueiros e a degradação ambiental reduzem as oportunidades de subsistência para as comunidades locais, afetando negativamente a segurança alimentar e o bem-estar socioeconômico.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Erosão Cultural: A degradação dos manguezais também tem implicações culturais, já que muitas comunidades
-                    tradicionais possuem laços profundos com esses ecossistemas e dependem deles para a sua identidade
-                    cultural e modos de vida.</span></span></p>
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Erosão Cultural: A degradação dos manguezais também tem implicações culturais, já que muitas comunidades tradicionais possuem laços profundos com esses ecossistemas e dependem deles para a sua identidade cultural e modos de vida.</span></span></p>
               <p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span
                   style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><span
-                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">
-                    Em resumo, a conservação e a gestão sustentável dos manguezais dos Lençóis Maranhenses são essenciais
-                    para proteger a biodiversidade, promover a resiliência costeira e garantir o sustento e o bem-estar
-                    das comunidades locais. Isso requer a implementação de políticas eficazes, a participação ativa das
-                    partes interessadas e o reconhecimento da importância dos manguezais na mitigação das mudanças
-                    climáticas e na promoção do desenvolvimento sustentável.
+                    style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> Em resumo, a conservação e a gestão sustentável dos manguezais dos Lençóis Maranhenses são essenciais para proteger a biodiversidade, promover a resiliência costeira e garantir o sustento e o bem-estar das comunidades locais. Isso requer a implementação de políticas eficazes, a participação ativa das partes interessadas e o reconhecimento da importância dos manguezais na mitigação das mudanças climáticas e na promoção do desenvolvimento sustentável.
                   </p>
 
       </div>
