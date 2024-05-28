@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <header>
         <div class="logo">
-            <img src="../images/logo-site.png" alt="MARAZUL Logo">
+            <img src="" alt="MARAZUL Logo">
         </div>
  <nav>
     <ul>
@@ -17,3 +17,52 @@
          <li><a href="contato.html">Fale Conosco</a></li>
     </ul>
  </nav>
+
+
+ <style>
+    body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .artigo {
+    position: relative;
+    display: flex;
+    /* Ativar o layout flexível */
+    align-items: flex-start;
+    /* Alinhar os itens verticalmente */
+  }
+
+  .imagem {
+    position: absolute;
+    /* Posiciona absolutamente em relação ao contêiner pai */
+    left: 0;
+    /* Alinhar à esquerda */
+    top: 0;
+    /* Alinhar ao topo */
+    width: 50%;
+    /* Largura de 50% da largura do contêiner pai */
+    height: 100%;
+    /* Altura igual à altura do contêiner pai */
+    margin-right: 10px;
+  }
+
+  .imagem img {
+    width: 100%;
+    /* Fazer a imagem ocupar 100% da largura do contêiner */
+    height: auto;
+    /* Permitir que a altura da imagem seja ajustada automaticamente */
+    display: block;
+    /* Garantir que a imagem não tenha margens indesejadas */
+  }
+
+  .descricao {
+    flex: 0;
+    /* Crescer para ocupar o espaço disponível */
+    margin-left: 50%;
+    /* Deixar espaço para a imagem */
+    padding: 20px;
+    /* Adicionar algum espaçamento interno */
+    box-sizing: border-box;
+    /* Incluir borda e preenchimento no tamanho total do elemento */ }
+</style>
